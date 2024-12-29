@@ -4,6 +4,7 @@ const eleventyNavigation = {
 	order: 3
 };
 ---
+
 # À propos
 
 Passionné par cette boisson que je consomme depuis des années, je me suis documenté sur le sujet et cet endroit sert notamment à partager ces connaissances. 

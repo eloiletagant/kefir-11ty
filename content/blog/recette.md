@@ -3,7 +3,7 @@ title: Recette
 description: La recette pour préparer un bon kéfir
 date: 2023-05-02
 tags:
-  - recette
+ - recette
 ---
 
 ## Ingrédients

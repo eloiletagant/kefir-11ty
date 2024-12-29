@@ -1,11 +1,11 @@
 export default {
 	title: "Kefir Club",
-	url: "https://example.com/",
+	url: "https://kefir.club/",
 	language: "fr",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "J'aime le kéfir",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Anatole",
+		email: "anatole@kefir.club",
+		url: "https://kefir.club/about/"
 	}
 }
