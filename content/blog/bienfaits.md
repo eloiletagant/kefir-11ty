@@ -2,13 +2,13 @@
 title: Les bienfaits pour la santé
 description: Les bienfaits du kéfir pour la santé
 date: 2023-12-10
-tags: 
-- test
 ---
 
 <!-- Le mot kéfir est un dérivé de la langue Turque qui signifie "se sentir bien" (Ahmed et al, 2013). -->
 
-Le kéfir est classé comme un [probiotique](probiotique) majeur[^1]. Il a notamment des vertues antimicrobiennes, anti-inflammatoires, antioxydantes et cicatrisantes[^2].
+Le kéfir est classé comme un [probiotique](/blog/probiotique) majeur (Yang et al., 2010). Il a notamment des vertues antimicrobiennes, anti-inflammatoires, antioxydantes et cicatrisantes (Fiorda, 2017).
 
-[^1]: Yang et al., 2010
-[^2]: Fiorda, 2017
+# Sources
+
+- Yang et al., 2010
+- Fiorda, 2017
