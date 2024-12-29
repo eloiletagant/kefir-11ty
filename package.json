@@ -1,7 +1,7 @@
 {
 	"name": "kefir-11ty",
 	"version": "1.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"description": "Kefir Club",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
