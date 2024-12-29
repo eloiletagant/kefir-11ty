@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/blog/recette/</loc>
+		<loc>https://kefir.club/blog/recette/</loc>
 		<lastmod>2023-05-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/fermentation/</loc>
+		<loc>https://kefir.club/blog/fermentation/</loc>
 		<lastmod>2023-06-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/composition-des-grains/</loc>
+		<loc>https://kefir.club/blog/composition-des-grains/</loc>
 		<lastmod>2023-12-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/dominic-anfiteatro/</loc>
+		<loc>https://kefir.club/blog/dominic-anfiteatro/</loc>
 		<lastmod>2023-12-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/bienfaits/</loc>
+		<loc>https://kefir.club/blog/bienfaits/</loc>
 		<lastmod>2023-12-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/origines/</loc>
+		<loc>https://kefir.club/blog/origines/</loc>
 		<lastmod>2023-12-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/probiotique/</loc>
+		<loc>https://kefir.club/blog/probiotique/</loc>
 		<lastmod>2024-01-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
+		<loc>https://kefir.club/about/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/</loc>
+		<loc>https://kefir.club/blog/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/</loc>
+		<loc>https://kefir.club/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/</loc>
+		<loc>https://kefir.club/tags/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 </urlset>
