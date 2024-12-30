@@ -25,4 +25,4 @@ tags:
 
 ## Conseils
 
-- Il est possible d'ajouter de la molasse ou du bicarbonate de soude alimentaire afin d'apporter des minéraux aux grains de kéfir (selon la recette de [Dom](dominic-anfiteatro)).
+- Il est possible d'ajouter de la molasse ou du bicarbonate de soude alimentaire afin d'apporter des minéraux aux grains de kéfir (selon la recette de [Dom](/blog/dominic-anfiteatro)).
