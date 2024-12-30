@@ -2,6 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://kefir.club/recette/</loc>
+		<lastmod>2023-05-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/fermentation/</loc>
+		<lastmod>2023-06-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/composition-des-grains/</loc>
+		<lastmod>2023-12-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/dominic-anfiteatro/</loc>
+		<lastmod>2023-12-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/bienfaits/</loc>
+		<lastmod>2023-12-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/origines/</loc>
+		<lastmod>2023-12-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/probiotique/</loc>
+		<lastmod>2024-01-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/kefir-ensemble/</loc>
+		<lastmod>2024-12-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/about/</loc>
+		<lastmod>2024-12-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://kefir.club/articles/</loc>
+		<lastmod>2024-12-30</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://kefir.club/</loc>
 		<lastmod>2024-12-30</lastmod>
 	</url>

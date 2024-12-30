@@ -5,12 +5,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Kefir Club</title>
-		<meta name="description" content="J&#39;aime le kéfir">
+		<title>Recette</title>
+		<meta name="description" content="La recette pour préparer un bon kéfir">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Kefir Club">
 		<link rel="icon" type="image/x-icon" href="/img/logo.svg">
 		<meta name="generator" content="Eleventy v3.0.0">
-		<style>/* Defaults */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
@@ -302,12 +470,35 @@ header {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="tags">Tags</h1>
+<h1 id="recette">Recette</h1>
 
-<ul>
-
+<ul class="post-metadata">
+	<li><time datetime="2023-05-02">02 mai 2023</time></li>
 </ul>
 
+<h2 id="ingredients">Ingrédients</h2>
+<ul>
+<li>60 g de grains de kéfir</li>
+<li>60 g de sucre de canne (ou une combinaison de plusieurs sucres) <!-- 8% sucrose --></li>
+<li>1 grosse figue turque ou 2 petites figues grecques (séchées)</li>
+<li>2/3 tranches de citron</li>
+<li>1,5 L d'eau</li>
+</ul>
+<h2 id="preparation">Préparation</h2>
+<ul>
+<li>Ajouter tous les ingrédients dans un bocal de 2 L et bien mélanger.</li>
+<li>Fermer hermétiquement le bocal et laisser reposer entre 24 et 48 h à température ambiante le temps de la première fermentation. A terme, une légère mousse flotte à la surface et la boisson doit être ni trop sucrée ni trop acide.</li>
+<li>Filtrer le kéfir afin de le mettre en bouteille pendant la même durée. Cette seconde fermentation va permettre d'avoir une boisson pétillante. C'est l'occasion d'aromatiser la boisson en y ajoutant du gingembre, de la citronnelle, ou n'importe quel fruit ! Attention au moment de l'ouvrir, si la bouteille est bien hermétique le gaz s'y accumule et la pression peut être élevée.</li>
+<li>Une fois terminé, la bouteille doit être stockée au frais afin d'arrêter la fermentation. Cela va aussi permettre une maturation de la boisson qui va l'équilibrer.</li>
+</ul>
+<p>À servir frais :)</p>
+<h2 id="conseils">Conseils</h2>
+<ul>
+<li>Il est possible d'ajouter de la molasse ou du bicarbonate de soude alimentaire afin d'apporter des minéraux aux grains de kéfir (selon la recette de <a href="/dominic-anfiteatro">Dom</a>).</li>
+</ul>
+
+		<ul class="links-nextprev"><li class="links-nextprev-next">Suivant →<br><a href="/fermentation/">Qu&#39;est-ce que la fermentation ?</a></li>
+		</ul>
 
 			</heading-anchors>
 		</main>
@@ -320,7 +511,7 @@ header {
 			<a href="mailto:anatole@kefir.club">Contact</a>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2024-12-30T12:01:41.653Z -->
+		<!-- This page `/recette/` was built on 2024-12-30T12:01:41.655Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
