@@ -1,3 +1,8 @@
+---js
+const year = new Date().getFullYear()
+---
+
+
 <!doctype html>
 <html lang="{{ metadata.language }}">
 	<head>
@@ -44,9 +49,32 @@
 			</heading-anchors>
 		</main>
 
-		<footer></footer>
+		<footer style="display: flex;justify-content: space-between; font-size: 14px; color: grey;">
+			<span>
+				© {{ year }} <a href="{{ metadata.url }}">Kefir Club</a>. Tous droits réservés.
+			</span>
+
+			<a href="mailto:{{ metadata.author.email }}">Contact</a>
+		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
